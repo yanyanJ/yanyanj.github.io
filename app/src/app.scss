@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/earlyaccess/cwtexkai.css');
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
+
+@font-face {
+	font-family: "Code Pro";
+	src: url("fonts/codepro/codepro.eot") format("embedded-opentype"),
+		url("fonts/codepro/codepro.ttf") format("truetype"),
+		url("fonts/codepro/codepro.woff") format("woff"),
+		url("fonts/codepro/codepro.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Code Pro", sans-serif;
+	background-color: white;
+}
+
+#root, .app {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+	text-align: center;
+
+	.mainPage{
+	  width: 100%;
+	  height: 100%;
+	  background-color: #FFFFFF;
+	  background-image: url("images/MainPageWallPaper.png");
+	  background-position: center;
+	  background-size: cover;
+		position: absolute;
+	}
+}

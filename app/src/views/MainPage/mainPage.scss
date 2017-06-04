@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Bungee+Shade|');
+
+.mainView, .videoWindow{
+  width: 86.6%;
+  height: 60%;
+  margin: auto;
+}
+
+.loadingWindow{
+  position: relative;
+}
+
+.myName{
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  width: 100%;
+  top:50%;
+  transform: translate(0%, -50%);
+  font-size:13vw;
+  color: white;
+  font-family: 'Bungee Shade', cursive;
+}
+
+.h2 {
+  color:#2c3030;
+  font-size: 17px;
+}
+
+.videoWindow{
+  object-fit: cover;
+}
+
+.blogView, .aboutView{
+  width: 86.6%;
+  height: 60%;
+  margin: auto;
+  background-color:rgba(63, 205, 212, 0.5);
+  background-position: center;
+  background-size: cover;
+  font-family: 'Arima+Madurai', cursive;
+  font-size: 15px;
+  color: #3e5151;
+  overflow: scroll;
+}
+
+.blogViewText, .aboutViewText{
+  overflow: scroll;
+}
+
+.tabs{
+  cursor: pointer;
+  margin-top: 100px;
+
+  > * {
+    display: inline-block;
+  }
+}
+
+.about, .blog{
+  width: 43.3%;
+  text-align: center;
+  top: 60%;
+  position: relative;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 24px;
+  color: #607D8B;
+  background: antiquewhite;
+}
+
+@media (max-width: 600px){
+
+  .about, .blog {
+    font-size: 18px;
+  }
+  .aboutViewText, .blogViewText
+  {
+    font-size: 12px;
+  }
+  .h2{
+    font-size: 14px;
+  }
+}
