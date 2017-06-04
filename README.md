@@ -1,8 +1,7 @@
 # Yanyan's personal website
 
-# Development
-Please install `react-script` before running `npm start`
+# Development -
+`npm start` - go to app directory
 
 # Build
-To build, run `npm run build`
-This will run a build using `react-script` and move all built files to the root directory.
+`npm run build` - build before commit
