@@ -35,8 +35,7 @@
   font-family: 'Arima+Madurai', cursive;
   font-size: 15px;
   color: #3e5151;
-  overflow: scroll;
-  margin-bottom: 40px; }
+  overflow: scroll; }
 
 .blogViewText, .aboutViewText {
   overflow: scroll; }
